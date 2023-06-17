@@ -2,7 +2,10 @@
     margin: 0;
 }
 
-video{
+.bg-video video{
     width: 100%; 
     height: 100%; 
+    z-index: -1;
+    margin: 0;
 }
+
