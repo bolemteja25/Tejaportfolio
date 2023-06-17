@@ -10,10 +10,21 @@
     <link rel="stylesheet" href="src/style.css" >
 </head>
 <body>
-    <h1>Hey! how you doin?</h1>
+    <!-- header -->
+    
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="src/logo.png" alt="Logo"  class="d-inline-block align-text-top">
+          </a>
+        </div>
+    </nav>
+    
+
+    <!-- background video -->
     <div class="container">
-        <video src="src/bg-video.mp4" controls></video>
-        <div class="overlay p-2">
+        <video src="src/bg-video.mp4" autoplay loop muted plays-inline></video>
+        <div class="overlay-stuff">
           <h1 class="text-white">This is an overlay</h1>
         </div>
     </div>
