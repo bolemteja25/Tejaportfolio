@@ -14,29 +14,28 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-sm bg-warning navbar-black  fixed-top">
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="navbar-brand" href="#">
-            <img src="src/logo.png" alt="Logo" width="250" height="40" class="d-inline-block align-text-top">
+            <img src="src/logo.png" alt="Logo">
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Home">Home</a>
+          <a class="nav-link text-primary" href="#Home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#About-me">About me</a>
+          <a class="nav-link text-primary" href="#About-me">About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Contact">Contact</a>
+          <a class="nav-link text-primary" href="#Contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div id="Home" class="container-fluid text-white">
-    <h1>Welcome</h1>
+  <div id="Home" class="container-fluid">
     <!-- background video -->
     <div class="bg-video">
       <video src="src/bg-video.mp4" autoplay loop muted plays-inline></video>
@@ -48,20 +47,21 @@
 
   <div id="About-me" class="container-fluid bg-warning" style="padding:100px 20px;">
     <h1>About me</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-      the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-      the navigation bar while scrolling!</p>
+    <p>I am a highly motivated and results-oriented developer, and I am always looking for new challenges. 
+      I am also a team player, and I am able to work effectively with others to deliver high-quality software.</p>
+    <p>I am confident that I have the skills and experience necessary to be a valuable asset to your team. 
+      I am eager to learn more about your company and the opportunities that you have available.</p>
+    
   </div>
 
-  <div id="Contact" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+  <div id="Contact" class="container-fluid bg-success text-white">
     <h1>Contact Me</h1>
     <form id="contactForm">
-      <input type="text" name="name" placeholder="Your name">
-      <input type="email" name="email" placeholder="Your email">
-      <input type="text" name="subject" placeholder="Subject">
-      <textarea name="message" placeholder="Your message"></textarea>
-      <input type="submit" value="Send">
+      <label>Full Name: <input type="text" name="name" placeholder="Full name"></label>
+      <label>Email: <input type="email" name="email" placeholder="Your email"></label>
+      <label>Subject: <input type="text" name="subject" placeholder="Subject"></label>
+      <label>Message: <textarea name="message" placeholder="Your message"></textarea></label>
+      <button type="button" class="btn btn-primary" type="submit" value="Send">Send</button>
     </form>
   </div>
 

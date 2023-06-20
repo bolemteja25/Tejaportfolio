@@ -9,3 +9,21 @@
     z-index: -1;
     margin: 0;
 }
+
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 100%;
+}
+
+#contactForm label{
+    margin: 5px;
+}
+
+.navbar-brand img{
+    width: 80%;
+    height: 50px;
+}
