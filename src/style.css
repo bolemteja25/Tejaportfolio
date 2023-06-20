@@ -1,5 +1,6 @@
 .body{
     margin: 0;
+    position: relative;
 }
 
 .bg-video video{
@@ -8,4 +9,3 @@
     z-index: -1;
     margin: 0;
 }
-
