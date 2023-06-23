@@ -1,6 +1,7 @@
 .body{
     margin: 0;
     position: relative;
+    font-family: "Archivo", sans-serif;
 }
 
 .navbar{
@@ -25,6 +26,11 @@
     color: aliceblue;
     width: 100%;
     height: 70vh;
+    font-family: "Archivo", sans-serif;
+}
+
+#About-me p{
+    font-size: larger;
 }
 
 #Contact{
