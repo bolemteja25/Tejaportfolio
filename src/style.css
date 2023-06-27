@@ -1,9 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 ;
 }
-.body{
-    margin: 0;
+
+body{
+    width: 100%;
+    box-sizing: border-box;
     font-family: "Archivo", sans-serif;
 }
 .navbar{
@@ -18,7 +20,6 @@
 }
 
 .navbar-nav{
-    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,11 +41,22 @@
     border-radius: 5px;
 }
 
-#Home{
-    position: relative;
+.body-content{
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
 }
 
-.bg-video video{
+#Home{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    width: 100%;
     position: relative;
     object-fit: cover;
     z-index: -1;
@@ -65,38 +77,20 @@
     text-align: center;
 }
 
-
-@media (min-aspect-ratio: 16/9){
-    .bg-video{
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio: 16/9){
-    .bg-video{
-        width: auto;
-        height: 100%;
-    }
-}
-
 #About-me{
-    margin: -10px 0 0 0;
     background-color: #05445E;
     color: aliceblue;
-    width: 100%;
     height: 70vh;
     font-family: "Archivo", sans-serif;
 }
 
-#About-me p{
+#About-me .p{
     font-size: larger;
 }
 
 #Contact{
     background-color: aquamarine;
     text-align: center;
-    width: 100%;
     height: 70vh;
 }
 
@@ -133,6 +127,7 @@
 }
 
 .footer{
+    display: flex;
     color: white;
     width: 100%;
     height: 30vh;
