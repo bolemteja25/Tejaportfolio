@@ -113,11 +113,16 @@ video{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "Archivo", sans-serif;
+    gap: 10px;
+}
+
+#About-me h1{
+    color: #007BA7;
 }
 
 #About-me .p{
     font-size: larger;
+    font-weight: 600;
 }
 
 #Contact{
@@ -130,40 +135,43 @@ video{
     margin-bottom: 40px;
 }
 
+#Contact h1{
+    color: #008B8B;
+}
+
+.contact-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+}
+
+.contact-card div{
+    width: 50%;
+}
+
 .contact-details{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    gap: 10px;
     margin: 20px;
 }
 
-.contact-details form {
-    padding: 15px;
-    border: 3px solid #05445E;
-    border-radius: 10px;
-    width: 45%;
+.contact-details h4{
+    font-size: 25px;
+    font-weight: bold;
 }
 
-.contact-details form label{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.contact-details label{
+    font-weight: bold;
 }
 
-.contact-details form input{
-    width: 50%;
-}
-
-.contact-details form button{
-    margin: 10px;
-}
-
-.contact-details span{
-    border: 3px solid #05445E;
-    border-radius: 10px;
-    width: 45%;
-    padding: 15px;
+.contact-pic img{
+    clip-path: circle(40%);
+    width: 70%;
+    padding: 15px 10px;
 }
 
 .footer{
