@@ -91,7 +91,7 @@ video{
 
 .text-overlay h1{
     font-size: 50px;
-    color: #05445E;
+    color: #B2FFFF;
     font-weight: 700;
 }
 
@@ -105,7 +105,7 @@ video{
     margin-top: 50px;
     padding: 55px 25px;
     text-align: center;
-    background-color: #8ac6d0;
+    background-color: #A4DDED;
     border-radius: 10px;
     color: black;
     display: flex;
@@ -135,14 +135,13 @@ video{
 }
 
 #Contact h1{
-    color: #008B8B;
+    color: #007BA7;
 }
 
 .contact-card{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 10px;
     gap: 10px;
 }
 
@@ -150,9 +149,12 @@ video{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 10px;
-    margin: 20px;
+    gap: 15px;
     width: 45%;
+    background-color: #E0FFFF;
+    border: 0 solid;
+    border-radius: 10px;
+    padding: 50px 0;
 }
 
 .contact-details h4{
@@ -166,11 +168,10 @@ video{
 
 .contact-pic{
     width: 45%;
-    padding: 0 15px;
 }
 
 .contact-pic img{
-    clip-path: circle(40%);
+    clip-path: circle(30%);
     width: 100%;
 }
 
@@ -189,4 +190,9 @@ video{
 
 .footer li a{
     text-decoration: none;
+}
+
+#mail-decor{
+    text-decoration: none;
+    color: black;
 }
