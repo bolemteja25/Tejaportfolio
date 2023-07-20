@@ -5,7 +5,6 @@
 
 body{
     width: 100%;
-    box-sizing: border-box;
     font-family: "Archivo", sans-serif;
 }
 .navbar{
@@ -89,7 +88,7 @@ video{
 }
 
 .text-overlay h1{
-    font-size: 100px;
+    font-size: 10vh;
     color: #ff3333;
     font-weight: 700;
 }
@@ -159,8 +158,6 @@ video{
     align-self: center;
 }
 
-
-
 #Contact{
     background-color: #b8f3ff;
     border-radius: 10px;
@@ -173,6 +170,7 @@ video{
 
 #Contact h1{
     color: #007BA7;
+    margin-bottom: 10px;
 }
 
 .contact-card{
@@ -194,11 +192,6 @@ video{
     padding: 50px 0;
 }
 
-.contact-details h4{
-    font-size: 25px;
-    font-weight: bold;
-}
-
 .contact-details label{
     font-weight: bold;
 }
@@ -212,7 +205,6 @@ video{
     width: 60%;
     padding-bottom: 35px;
 }
-
 .footer{
     padding: 25px;
     display: flex;
@@ -232,5 +224,4 @@ video{
 
 #mail-decor{
     text-decoration: none;
-    color: black;
 }
