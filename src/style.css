@@ -100,7 +100,7 @@ video{
 
 #About-me{
     width: 85%;
-    margin-top: 50px;
+    margin: 50px 0 35px 0;
     padding: 55px 25px;
     text-align: center;
     background-color: #A4DDED;
@@ -124,7 +124,7 @@ video{
 
 #Skills{
     width: 85%;
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 55px 25px;
     text-align: center;
     background-color: #b3ffe6;
@@ -137,19 +137,15 @@ video{
     height: auto;
 }
 
-#Skills h1{
+#Skills h2{
+    margin: 15px 0;
+    font-weight: bold;
     color: #007BA7;
 }
 
-.svg-files{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .svg-files img{
-    width: 100px;
-    height: 100px;
-    flex: 1 0 21%;
+    width: 90px;
+    height: 90px;
     margin: 5px;
 }
 
@@ -212,3 +208,53 @@ video{
 #mail-decor{
     text-decoration: none;
 }
+
+.experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .job {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .job:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .title {
+    font-weight: bolder;
+    color: #007BFF;
+    margin-bottom: 5px;
+  }
+  .years {
+    font-style: italic;
+    color: #777;
+  }
+  .company {
+    font-weight: bold;
+    color: #333;
+  }
+  .description {
+    margin-top: 10px;
+    color: #555;
+    border-left: 5px solid 007BFF;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  .head{
+    background-color: #6dabee;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bolder;
+    margin-top: 15px;
+  }
+
