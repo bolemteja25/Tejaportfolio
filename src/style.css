@@ -143,11 +143,11 @@ video{
     color: #007BA7;
 }
 
-.svg-files img{
-    width: 90px;
-    height: 90px;
-    margin: 5px;
+.svg-files{
+    display: flex;
+    flex-direction: row;
 }
+
 
 #Contact{
     background-color: #b8f3ff;
@@ -241,20 +241,17 @@ video{
     font-weight: bold;
     color: #333;
   }
-  .description {
-    margin-top: 10px;
-    color: #555;
-    border-left: 5px solid 007BFF;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-
   .head{
-    background-color: #6dabee;
-    color: white;
+    font-size: 25px;
+    background-color: #B9E9FC;
+    color: #05445E;
     border-radius: 5px;
-    padding: 5px 10px;
-    font-weight: bolder;
+    padding: 5px;
+    font-weight: bold;
     margin-top: 15px;
   }
 
+  .item p{
+    font-size: large;
+    font-weight: bold;
+  }
