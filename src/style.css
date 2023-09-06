@@ -28,13 +28,13 @@ body{
     font-weight: 700;
 }
 
-.navbar-nav li a{
+.navbar-nav a{
     color: black;
     text-decoration: none;
     padding: 10px 25px;
 }
 
-.navbar-nav li a:hover{
+.navbar-nav a:hover{
     padding: 10px 25px;
     background-color: #ff944d;
     color: white;
@@ -146,6 +146,10 @@ video{
 .svg-files{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    object-fit: contain;
 }
 
 
