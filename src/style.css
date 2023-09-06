@@ -88,8 +88,8 @@ video{
 }
 
 .text-overlay h1{
-    font-size: 10vh;
-    color: #ff3333;
+    font-size: 30px;
+    color: white;
     font-weight: 700;
 }
 
@@ -205,6 +205,21 @@ video{
     background-color: #303030;
 }
 
+.resume{
+    width: 85%;
+    margin-top: 20px;
+    padding: 55px 25px;
+    text-align: center;
+    background-color: #05445E;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
 .footer li a{
     text-decoration: none;
 }
@@ -247,12 +262,14 @@ video{
   }
   .head{
     font-size: 25px;
+    width: 10%;
     background-color: #B9E9FC;
     color: #05445E;
     border-radius: 5px;
     padding: 5px;
     font-weight: bold;
     margin-top: 15px;
+    text-align: center;
   }
 
   .item p{
