@@ -208,9 +208,10 @@ video{
 .resume{
     width: 85%;
     margin-top: 20px;
+    margin-bottom: 40px;
     padding: 55px 25px;
     text-align: center;
-    background-color: #05445E;
+    background-color: #64c4ed;
     border-radius: 10px;
     color: black;
     display: flex;
